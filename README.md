@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🛒 SplitCart - Smart Cart Share
 
-**URL**: https://lovable.dev/projects/e6e6a2b7-042c-42de-a3db-298c0d02819c
+**SplitCart** is a collaborative shopping list platform that helps households manage their purchases together. From adding items and categorizing them to automatically splitting costs among members, SplitCart brings simplicity and accountability to group shopping.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎉 Hackathon Submission
 
-**Use Lovable**
+> This project was built as part of the **Vibe Coding Jhackathon** 🚀 — showcasing the power of teamwork, creativity, and code. SplitCart was designed to offer a real-world solution for shared living and family expenses.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e6e6a2b7-042c-42de-a3db-298c0d02819c) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🌟 Features
 
-**Use your preferred IDE**
+- 👥 **Household Member Management** — Add/remove members who share the cart.
+- 🛒 **Shared Shopping List** — Add items with quantities and categories.
+- ✅ **Mark as Purchased** — Cross off items once bought.
+- 💸 **Automatic Cost Splitting** — Estimate and split total shopping costs fairly.
+- 📈 **Real-time Overview** — See member count, item count, to-buy list, and total cost.
+- ⭐ **Premium Tier** — Optional premium upgrade (KES 100/month) for extra features.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 This project is built with:
 
-Follow these steps:
+Vite
+TypeScript
+React
+shadcn-ui
+Tailwind CSS
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Vite**
+- **Tailwind CSS**
+- **React**
+- **TypeScript**
+- **shadcn-ui**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Prerequisites
+
+- Node.js (v16+)
+- pnpm or npm
+
+### Setup
+
+```bash
+git clone https://github.com/essytech254/split-smart-cart-share.git
+cd split-smart-cart-share
+pnpm install         # or npm install
+pnpm dev             # or npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Visit `http://localhost:5173` to view the app.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Folder Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── ShoppingList.jsx
+│   ├── Members.jsx
+│   ├── CostSplit.jsx
+├── App.jsx
+├── main.jsx
+├── assets/
+└── styles/
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🧠 Future Plans
 
-## How can I deploy this project?
+- 📨 Invite members via email or link
+- 📱 Convert to PWA for mobile offline use
+- 🔔 Add notification system for item updates
+- 📊 Track spending trends and item history
 
-Simply open [Lovable](https://lovable.dev/projects/e6e6a2b7-042c-42de-a3db-298c0d02819c) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🤝 Contributing
 
-Yes, you can!
+Have an idea to improve it? Found a bug? Contributions are welcome. Please fork the repository, make changes, and open a pull request.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📜 License
+
+Licensed under the MIT License.
+
+---
+
+Made with 💚 for the **Vibe Coding hackathon** by [Esther Muthoni (essytech254)](https://github.com/essytech254)
